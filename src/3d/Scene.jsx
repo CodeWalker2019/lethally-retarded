@@ -8,6 +8,10 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 import Mask from '../assets/mask.gif';
+import Duck from '../assets/duck.gif';
+import Gift from '../assets/gift.gif';
+import Employee from '../assets/emoloyee.gif';
+import Cab from '../assets/cab.gif';
 
 import { RADIUS } from '../constants';
 
@@ -42,7 +46,7 @@ const CONTENT = [
       '* Looses her mind when sees ducks',
       '* House keeper',
     ],
-    secondScreen: Mask,
+    secondScreen: Duck,
   },
   {
     monitoring: [
@@ -56,7 +60,7 @@ const CONTENT = [
       '* Screamer of the century',
       '* Told to the Lootokrad that key is not a loot',
     ],
-    secondScreen: Mask,
+    secondScreen: Gift,
   },
   {
     monitoring: [
@@ -67,7 +71,7 @@ const CONTENT = [
       '* Loves medivnyky',
       '* Approches to his duties professionally',
     ],
-    secondScreen: Mask,
+    secondScreen: Employee,
   },
   {
     monitoring: [
@@ -75,7 +79,7 @@ const CONTENT = [
       'Notes:',
       '* NO DATA FOUND',
     ],
-    secondScreen: Mask,
+    secondScreen: '',
   },
   {
     monitoring: [
@@ -85,7 +89,7 @@ const CONTENT = [
       '* SSS+++ class driver',
       '* Ass burns a lot',
     ],
-    secondScreen: Mask,
+    secondScreen: Cab,
   },
 ];
 
@@ -122,7 +126,7 @@ export default function LethalScene({ hidden }) {
           <SMAA />
           <ChromaticAberration offset={[0.003, 0.0003]} />
           <Noise premultiply blendFunction={BlendFunction.ADD} />
-          <Pixelation granularity={5} />
+          <Pixelation granularity={2} />
           <Vignette eskil={false} offset={0.3} darkness={0.7} />
         </EffectComposer>
         <Content

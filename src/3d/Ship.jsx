@@ -8,7 +8,7 @@ import style from './style.module.css';
 export default function Ship({ screens }) {
   return (
     <group>
-      <Gltf src={'scene.gltf'} />
+            <Gltf src={'scene.gltf'} />
       <group>
         <mesh>
           <Html scale={0.1} rotation-y={-Math.PI / 2} position={[9.383, 7.07, 0.35]} transform occlude>
