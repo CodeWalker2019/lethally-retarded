@@ -1,0 +1,29 @@
+.monitoring {
+  width: 650px;
+  height: 430px;
+  font-size: 30px;
+  padding: 20px;
+  user-select: none;
+  background: repeating-linear-gradient(
+      0deg,
+      #0E0D0E 25%,
+      #0E0D0E 50%,
+      #171819 50%,
+      #171819 75%
+    );
+  background-size: 10px 10px;
+}
+
+.item {
+  width: 570px;
+  height: 420px;
+  background: repeating-linear-gradient(
+    0deg,
+    #0E0D0E 25%,
+    #0E0D0E 50%,
+    #171819 50%,
+    #171819 75%
+  );
+  background-size: 10px 10px;
+  user-select: none;
+}
