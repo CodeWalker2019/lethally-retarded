@@ -2,6 +2,7 @@
   "name": "lethal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://CodeWalker2019.github.io/lethally-retarded",
   "dependencies": {
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "sass": "^1.80.4",
     "tailwindcss": "^3.4.14"
