@@ -2,7 +2,6 @@
   "name": "lethal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CodeWalker2019.github.io/lethally-retarded",
   "dependencies": {
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
